@@ -28,61 +28,82 @@ while True:
     
     
     print(ray)
-    sleep(8)
-    
+    sleep(15)
     
 
     def resultado(num):
         
-        import telebot
-        
-        token = '5909325186:AAFL1prjhjD6SzaaYYBp_hIY3V2qKAiEMdc'
-        chat_id = '-766902477'
-        
-        #bot = telebot.TeleBot(token)
-        
         if num[0:4] == a2 :
             
-            text = '''Green no Preto'''
+            text = 'Green no Preto'
+            print(text)
             
-            #bot.send_messege(chat_id, text)
-            
-            url_base = f'https://api.telegram.org/bpt{token}/sendMessege?chat_id={chat_id}&text={text}'
-            result = requests.get(url_base)
+            import telebot
+        
+            token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
+            chat_id = '5219044660'
+        
+            bot = telebot.TeleBot(token)
+        
+            bot.send_message(chat_id, text)
             sleep(5)
             
             
         if num[0:3] == a1 :
             
-            text = '''Entrada confirmado no Preto'''
-            #bot.send_messege(chat_id, text)
-            url_base = f'https://api.telegram.org/bpt{token}/sendMessege?chat_id={chat_id}&text={text}'
-            result = requests.get(url_base)
+            text = 'Entrada confirmado no Preto'
+            print(text)
+
+            import telebot
+        
+            token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
+            chat_id = '5219044660'
+        
+            bot = telebot.TeleBot(token)
+        
+            bot.send_message(chat_id, text)
+            
+            
+            
             sleep(5)
             
         if num[0:3] == a3 :
             
-            text = '''Entrada confirmado no Vermelho, mas com possibilidade de Branco'''
-            #bot.send_messege(chat_id, text)
-            url_base = f'https://api.telegram.org/bpt{token}/sendMessege?chat_id={chat_id}&text={text}'
-            result = requests.get(url_base)
+            text = 'Entrada confirmado no Vermelho, mas com possibilidade de Branco'
+            print(text)
+            
+            import telebot
+        
+            token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
+            chat_id = '5219044660'
+        
+            bot = telebot.TeleBot(token)
+        
+            bot.send_message(chat_id, text)
+            
+            
             sleep(5)
             
         if num[0:3] == a4 :
             
             text = 'possibilidade no Preto'
-            #bot.send_messege(chat_id, text)
-            url_base = f'https://api.telegram.org/bpt{token}/sendMessege?chat_id={chat_id}&text={text}'
-            result = requests.get(url_base)
-            sleep(5)
-        
-        elif num[0:3] != [a1] :
+            print(text)
             
-            text = ''' Aguarde . . .'''
-            #bot.send_messege(chat_id, text)
-            url_base = f'https://api.telegram.org/bpt{token}/sendMessege?chat_id={chat_id}&text={text}'
-            result = requests.get(url_base)
+            import telebot
+        
+            token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
+            chat_id = '5219044660'
+        
+            bot = telebot.TeleBot(token)
+        
+            bot.send_message(chat_id, text)
+            
+            
+            
             sleep(5)
-
+    
     resultado(ray)
+    
+    
     sleep(5)
+    

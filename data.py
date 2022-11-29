@@ -12,4 +12,13 @@ a5 = ['Branco', 'Branco', 'Branco']
 
 a7 =
 
-a8 = """
+a8 = 
+
+
+
+url_base = f'https://api.telegram.org/bpt{token}/sendMessege?chat_id={chat_id}&text={text}'
+requests.get(url_base)
+
+
+
+"""
