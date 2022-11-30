@@ -32,8 +32,8 @@ while True:
     
 
     def resultado(num):
-        token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
-        chat_id = '-863821345'
+        token = '' # inserir token do botFather
+        chat_id = '' #id do chat
         
         if num[0:4] == a2 :
             
@@ -88,8 +88,20 @@ while True:
             bot.send_message(chat_id, text)
             
             
+           #adicionar mais tipos de analises 
+        ''''
+        if num[0:3] == a4 :
             
-            sleep(5)
+            text = 'possibilidade no Preto'
+            print(text)
+            
+            import telebot
+        
+            
+            bot = telebot.TeleBot(token)
+        
+            bot.send_message(chat_id, text)
+            sleep(5)''''
     
     resultado(ray)
     
