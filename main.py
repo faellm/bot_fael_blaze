@@ -32,6 +32,8 @@ while True:
     
 
     def resultado(num):
+        token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
+        chat_id = '-863821345'
         
         if num[0:4] == a2 :
             
@@ -39,9 +41,6 @@ while True:
             print(text)
             
             import telebot
-        
-            token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
-            chat_id = '5219044660'
         
             bot = telebot.TeleBot(token)
         
@@ -56,14 +55,9 @@ while True:
 
             import telebot
         
-            token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
-            chat_id = '5219044660'
-        
             bot = telebot.TeleBot(token)
         
             bot.send_message(chat_id, text)
-            
-            
             
             sleep(5)
             
@@ -73,9 +67,6 @@ while True:
             print(text)
             
             import telebot
-        
-            token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
-            chat_id = '5219044660'
         
             bot = telebot.TeleBot(token)
         
@@ -91,9 +82,7 @@ while True:
             
             import telebot
         
-            token = '5932209507:AAHoHluEszjdolrOauvc1ylp29L-rt0YGDg'
-            chat_id = '5219044660'
-        
+            
             bot = telebot.TeleBot(token)
         
             bot.send_message(chat_id, text)
